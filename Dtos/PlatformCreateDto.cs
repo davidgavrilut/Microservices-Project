@@ -1,10 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace PlatformService.Models {
-    public class Platform {
-        [Key]
-        [Required]
-        public int Id { get; set; }
+namespace PlatformService.Dtos {
+    public class PlatformCreateDto {
         [Required]
         public string Name { get; set; }
         [Required]
