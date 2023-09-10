@@ -43,7 +43,7 @@ namespace PlatformService.Controllers {
             var platformModel = _mapper.Map<Platform>(platformCreateDto);
             _repository.CreatePlatform(platformModel);
             _repository.SaveChanges();
-            // Expose the newly created Platform through PlatformReadDto
+            // Expose newly created Platform through PlatformReadDto
             var platformReadDto = _mapper.Map<PlatformReadDto>(platformModel);
             // Return 201 Created with a route (GetPlatformById, id and platformReadDto)
             return CreatedAtRoute(nameof(GetPlatformById), new { Id = platformReadDto.Id }, platformReadDto);
