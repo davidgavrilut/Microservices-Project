@@ -5,7 +5,8 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8S", "K8S", "{EF75ED33-783D-4E89-BDDC-9B4E1E54E4F0}"
 	ProjectSection(SolutionItems) = preProject
-		platforms-depl.yaml = platforms-depl.yaml
+		K8S\platforms-depl.yaml = K8S\platforms-depl.yaml
+		K8S\platforms-np-srv.yaml = K8S\platforms-np-srv.yaml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlatformService", "PlatformService", "{7F492CEC-639B-41D7-9E7D-0E327317A58F}"
