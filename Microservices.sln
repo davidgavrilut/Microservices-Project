@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlatformService", "Platform
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformService", "PlatformService\PlatformService.csproj", "{D537DBB0-F37A-4722-AA4A-7454F310E761}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandsService", "CommandsService", "{12279C0E-4889-4856-AD78-502312192020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandsService", "CommandsService\CommandsService\CommandsService.csproj", "{9A02B829-104A-43E2-8ECE-79ACB30371D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,17 @@ Global
 		{D537DBB0-F37A-4722-AA4A-7454F310E761}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D537DBB0-F37A-4722-AA4A-7454F310E761}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D537DBB0-F37A-4722-AA4A-7454F310E761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A02B829-104A-43E2-8ECE-79ACB30371D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A02B829-104A-43E2-8ECE-79ACB30371D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A02B829-104A-43E2-8ECE-79ACB30371D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A02B829-104A-43E2-8ECE-79ACB30371D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D537DBB0-F37A-4722-AA4A-7454F310E761} = {7F492CEC-639B-41D7-9E7D-0E327317A58F}
+		{9A02B829-104A-43E2-8ECE-79ACB30371D6} = {12279C0E-4889-4856-AD78-502312192020}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F62F7CB-AEA3-4AE6-BBFE-0BCE417F1E68}
