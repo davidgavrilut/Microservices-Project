@@ -6,7 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8S", "K8S", "{EF75ED33-783D-4E89-BDDC-9B4E1E54E4F0}"
 	ProjectSection(SolutionItems) = preProject
 		commands-depl.yaml = commands-depl.yaml
-		network-policy.yaml = network-policy.yaml
+		ingress-srv.yaml = ingress-srv.yaml
 		K8S\platforms-depl.yaml = K8S\platforms-depl.yaml
 		K8S\platforms-np-srv.yaml = K8S\platforms-np-srv.yaml
 	EndProjectSection
